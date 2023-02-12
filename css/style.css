@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.content-box {
+  font-family: "Outfit";
+  width: 100vw;
+  height: 100vh;
+  /* Setup */
+  position: relative;
+  background-color: hsl(212, 45%, 89%);
+}
+img {
+  padding: 1rem;
+  border-radius: 8%;
+  width: 100%;
+}
+
+.image-text {
+  background-color: hsl(0, 0%, 100%);
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4%;
+  text-align: center;
+  width: 20%;
+}
+.image-text h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  padding-inline: 10%;
+}
+.image-text p {
+  font-weight: 400;
+  font-size: 15px;
+  padding: 2% 10% 10%;
+  color: hsl(220, 15%, 55%);
+}
